@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Cainã</title>
+    <link rel="stylesheet" href="Home.css">
+    <style>
+         @keyframes moveBandeira {
+            0% {
+                left: 10%;
+                transform: translateY(-50%) rotate(0deg);
+            }
+            50% {
+                left: 90%;
+                transform: translateY(-50%) rotate(180deg);
+            }
+            100% {
+                left: 10%;
+                transform: translateY(-50%) rotate(0deg);
+            }
+            
+            }
+
+            .bandeira {
+                
+            position: fixed;
+            top: 50%;
+            left: 10%;
+            transform: translateY(-50%);
+            width: 1px; /* Largura da imagem */
+            height: auto; /* Altura será ajustada automaticamente */
+            animation: moveBandeira 2s linear infinite alternate;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <b> Menu </b>
+            
+            <ul>
+                <li><a href="http://127.0.0.1:5501/Home.html" onmouseover="this.style.color='grey'" onmouseout="this.style.color='black'">Home</a></li>
+                <li><a href="Historia.html" onmouseover="this.style.color='grey'" onmouseout="this.style.color='black'">História</a></li>
+                <li><a href="Noticias.html" onmouseover="this.style.color='grey'" onmouseout="this.style.color='black'">Notícias</a></li>
+                <li><a href="FaleConosco.html" onmouseover="this.style.color='grey'" onmouseout="this.style.color='black'">Fale Conosco</a></li>
+               
+            </ul>
+            <br>
+            <br>
+            <br>
+            <img src="Img/EscudoBotafogo.png" width="150">
+        </div>
+
+        <div class="main">
+            <div class="header">
+                        O <mark> Botafogo de Futebol e Regatas</mark>, um dos <u>clubes mais tradicionais do Brasil</u>, tem uma     história rica e uma legião de fãs apaixonados espalhados por todo o país. Fundado em 1904, o <b>Botafogo</b> é conhecido por sua trajetória gloriosa no futebol, mas também por sua atuação em outras modalidades esportivas, como remo, basquete e vôlei. <br>
+
+                        No futebol, o <b>Botafogo</b> conquistou diversos títulos importantes ao longo de sua história, incluindo o Campeonato Brasileiro, a Copa do Brasil, o Campeonato Carioca e torneios internacionais como a Copa Conmebol. <br>
+                        
+                        O clube também é reconhecido por ter revelado grandes craques do esporte, como Nilton Santos, Garrincha, Didi e Jairzinho, que deixaram um legado inigualável no mundo do futebol. <br>
+                            
+                        Com uma história de glórias e conquistas, o <b>Botafogo de Futebol e Regatas</b> continua sendo uma referência no cenário esportivo brasileiro, mantendo vivo o orgulho de sua torcida e inspirando gerações de atletas e admiradores do esporte.
+                
+            </div>
+    
+            <div class="content">
+                <div class="bandeira">
+                    <img src="Img/CutPaste_2024-05-01_17-58-25-827.png" alt="" width="100">
+                </div>
+                <img src="Img/BotafogoEscudos.jpg" alt="Bandeira" class="flag"> <br>
+
+          <u>Conheça um pouco mais da história do Botafogo</u> <br>   
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DlYpj-n5s6M?si=usA_0QvNhdr3XZ20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
+        
+                          
+            </div>
+    
+            <div class="footer">
+                <div style="text-align: left;">
+                    <img src="Img/RodapeCaina.png" width="80" aling="right" >
+                    <h6><span style="color:yellow">Site do Cainã</span></h6>
+                </div>
+                <h6>
+                    <p><b><u>Site</u></b></p>
+                    <p>https://www.botafogo.com.br/</p>
+                    <p><b><u>Botafogo Store</u></b></p>
+                    <p><b>https://www.botafogo.com.br/#botafogo-store</b></p>
+                    <p><b><u>Camisa 7</u></b></p>
+                    <p>https://www.botafogo.com.br/#planos</p>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
